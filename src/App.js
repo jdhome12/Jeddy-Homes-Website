@@ -1,5 +1,7 @@
 import { Routes } from 'react-router-dom';
-import './App.css';
+import Navbar from './components/navbar/NavBar';
+import Footer from './components/footer/footer';
+
 
 function App() {
   return (
@@ -7,13 +9,14 @@ function App() {
       <div>
         {/* add the website nav bar */}
         <main>
-
+          < Navbar />
         </main>
         {/* add the different pages */}
         <div>
           <Routes>
           </Routes>          
         </div>
+        <Footer/>
       </div>
     </>
   );

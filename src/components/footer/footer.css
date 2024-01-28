@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+.footer-container{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+    background-color: rgb(33, 88, 71, 0.8);
+    padding: 2em;
+    color: white;
+    font-weight: 300;
+}
+footer{
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.footer-form div{
+    display: flex;
+    flex-direction: column;
+}
+.name-container{
+    display: flex;
+    flex-direction: row !important;   
+}
+.name-container div:nth-child(2){    
+    padding-left: 1vw;
+}
+.name-container div{
+    width: 19vw;
+}
+.footer-container3{
+ width:25vw;
+ padding: 2em;
+}
+.footer-container2{
+    width:53vw;
+}
+
+.socials-list{
+    display: flex;
+}
+.footer-form{
+    width: 27vw;
+}
+.socials-list li{
+    list-style: none;
+    padding-left: 0.7em;
+}
+.footer-container div{
+    padding-top: 0.5em;
+}
+.footer-container1{
+    width: 30vw;
+    padding: 2em;
+}
+.footer-form textarea{
+    height: 9em;
+    outline: none;
+    border: none;
+    border-radius: 13px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+.footer-form input{
+    height: 2.8em;
+    outline: none;
+    border: none;
+    margin-top: 0.5em;
+    border-radius: 10px;
+}
+.footer-form label::after{
+ content: '*';
+ color: red;
+}
+.contact-details li{
+    list-style: none;
+}
+.contact-details li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+@media screen and (max-width: 768px) {
+    .footer-container{
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .footer-container2{
+        width:86vw;
+    }
+    .footer-container1{
+        width: 84vw;
+        padding: 0em;
+    }
+    .footer-form{
+        width: 82vw;
+    }
+    .name-container div{
+        width: 40vw;
+    }
+    .name-container div:nth-child(2){    
+        margin-left: 1vw;
+    }
+}
