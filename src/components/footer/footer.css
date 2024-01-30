@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -9,7 +10,7 @@
     background-color: rgb(33, 88, 71, 0.8);
     padding: 2em;
     color: white;
-    font-weight: 300;
+    font-weight: 200;
 }
 footer{
     background-position: center;
@@ -18,6 +19,13 @@ footer{
 }
 footer:hover{
     background-size: 120;
+}
+iframe{
+    width: 50vw;
+    padding: 1em;         
+    border-radius: 15px;
+    height: 25vw;
+    border:none;
 }
 .footer-form div{
     display: flex;
@@ -90,6 +98,7 @@ footer:hover{
     .footer-container{
         flex-direction: column;
         overflow-x: hidden;
+        font-weight: 200 ;
     }
     .footer-container2{
         width:86vw;
@@ -106,5 +115,15 @@ footer:hover{
     }
     .name-container div:nth-child(2){    
         margin-left: 1vw;
+    }
+    iframe{
+        width:99vw;
+        height: 70vw;
+    }
+    footer{
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
     }
 }

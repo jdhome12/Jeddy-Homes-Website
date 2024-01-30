@@ -10,6 +10,7 @@
   font-family: 'Open Sans', sans-serif;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
   font-weight: 300;
+  top: 0;
 }
 
 .navbar-container {
@@ -54,6 +55,7 @@
   font-family: 'Open Sans', sans-serif;
 
 }
+
 
 @media screen and (max-width: 768px) {
   .menu-icon {

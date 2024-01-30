@@ -1,6 +1,7 @@
-import { Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar/NavBar';
 import Footer from './components/footer/footer';
+import HomePage from './pages/home/homepage';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         {/* add the different pages */}
         <div>
           <Routes>
+            <Route index element={<HomePage />} />
           </Routes>          
         </div>
         <Footer/>
