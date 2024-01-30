@@ -13,11 +13,16 @@
 }
 footer{
     background-position: center;
+    background-size: 100%;
     background-image: url('https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+footer:hover{
+    background-size: 120;
 }
 .footer-form div{
     display: flex;
     flex-direction: column;
+    font-weight: 400;
 }
 .name-container{
     display: flex;

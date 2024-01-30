@@ -8,13 +8,14 @@ import './footer.css'
 function Footer (){
     return(
         <footer>
-            <div className='footer-container'>
+           
+            <div className='footer-container' id='contact'>
                 <div className='footer-container1'>
                     <h1>
                         Contacts:
                     </h1>
                     <ul className='contact-details'>
-                        <li><CallIcon fontSize='medium'/> <a href='tel:0894884884'>07XXXXXXXXX</a> </li>
+                        <li><CallIcon fontSize='medium'/> <a href='tel:0723767980'>0723767980/</a><a href='tel:0723364821'>0723364821</a> </li>
                         <li><EmailIcon fontSize='medium'/> <a href='mail:support@jeddyhomes'>support@jeddyhomes.com</a></li>
                     </ul>
                     <div >
